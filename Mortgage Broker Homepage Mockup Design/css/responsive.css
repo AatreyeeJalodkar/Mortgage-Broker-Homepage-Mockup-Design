@@ -1,0 +1,23 @@
+@media(max-width:1024px){
+    .main_header_section .navbar{
+        height: 104vh;
+    }
+
+    .project_section .projects_img_box{
+        text-align: center;
+    }
+}
+
+@media(max-width:991px){
+    .contact_section .text_form_box .phone_no_box{
+        padding-top: 20px !important;
+    }
+}
+
+@media(max-width:375px){
+    .img-wrapper {  
+        width: 265px;
+        height: 365px;
+        overflow: hidden; 
+    }
+}

@@ -1,0 +1,88 @@
+/* Common css start */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins-Bold', 'Roboto-Bold';
+}
+.heading_box h2{
+    color: var(--golder-cream);
+}
+.main_header_section .container-fluid, .about_section, .happiness_section, .project_section, .contact_section{
+    background-color: var(--black);
+}
+/* Common css end */
+
+/* Header section start */
+.head_section{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    left: 0;
+}
+.main_header_section .navbar{
+    height: 100vh;
+}
+.main_text_box .text_btn_box{
+    position: absolute;
+    top: 50%;
+}
+.main_text_box .btn_box .custom_btn{
+    background-color: var(--golder-cream);
+    border-radius: 50px;
+}
+.main_text_box .btn_box .custom_btn:focus{
+    box-shadow:none;
+}
+.main_header_section .down_arrow_box{
+    position: relative;
+    bottom: 120px;
+}
+/* Header section end */
+
+/* Hero section start */
+.hero_section{
+    position: relative;
+}
+.hero_section .img_box img{
+    height: 756px;
+    filter: brightness(0.7);
+}
+/* Hero section end */
+
+
+/* Happiness section start */
+.happiness_section p{
+    color: var(--golder-cream);
+}
+.happiness_section .icon_box img{
+    height: 40px;
+    width: auto;
+}
+/* Happiness section end */
+
+
+/* Project section start */
+.img-wrapper {  
+    width: 370px;
+    height: 400px;
+    overflow: hidden; 
+}
+.inner-img {
+    transition: 0.3s;
+} 
+.inner-img:hover {
+    transform: scale(1.1);
+}
+.img-wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+/* Project section end */
+
+/* Contact section start */
+/* Contact section end */
+
+/* Footer Section Start  */
+.footer_section{
+    background-color: var(--gray-type);
+}
+/* Footer Section end */
